@@ -57,13 +57,10 @@ body {
   opacity: 0.3;
 }
 .square:nth-child(n + 11):nth-child(-n + 40) {
-  color: #5f5f5f;
+  color: #d0d0d0;
 }
 .square:nth-child(n + 41):nth-child(-n + 70) {
-  color: #c7c7c7;
-}
-.square:nth-child(n + 71):nth-child(-n + 120) {
-  color: white;
+  color: #eeeeee;
 }
 .buttonArea {
   position: fixed;
