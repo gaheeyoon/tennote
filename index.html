@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <script src="common.js" defer></script>
+    <title>글씨 연습 :: 10칸 노트</title>
+  </head>
+  <body>
+    <div class="a4-page" id="a4Page">
+      <div class="buttonArea">
+        <button onclick="inputText()">글씨 쓰기</button>
+        <button onclick="window.print();">인쇄하기</button>
+      </div>
+      <!-- JS로 칸 추가 -->
+      <div class="container" id="container"></div>
+    </div>
+  </body>
+</html>
